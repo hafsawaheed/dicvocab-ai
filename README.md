@@ -62,10 +62,10 @@ Replace the placeholder with a Gemini API key created in Google AI Studio:
 
 ```env
 GEMINI_API_KEY=your_real_api_key
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-3.6-flash
 ```
 
-`GEMINI_MODEL` is optional. The application defaults to `gemini-2.5-flash`.
+`GEMINI_MODEL` is optional. The application defaults to `gemini-3.6-flash`.
 
 Never rename the key to `NEXT_PUBLIC_GEMINI_API_KEY`. Variables prefixed with `NEXT_PUBLIC_` can be included in browser bundles.
 
