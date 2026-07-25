@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 15% 0%,
+      rgba(129, 140, 248, 0.2),
+      transparent 28rem
+    ),
+    radial-gradient(
+      circle at 90% 15%,
+      rgba(192, 132, 252, 0.16),
+      transparent 26rem
+    ),
+    #f8fafc;
+  color: #0f172a;
+}
+
+.dark body {
+  background:
+    radial-gradient(
+      circle at 15% 0%,
+      rgba(79, 70, 229, 0.2),
+      transparent 30rem
+    ),
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(126, 34, 206, 0.15),
+      transparent 28rem
+    ),
+    #070b16;
+  color: #f8fafc;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.25);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background: rgba(100, 116, 139, 0.35);
+  background-clip: padding-box;
+}
+
+.urdu-font {
+  font-family: "Noto Nastaliq Urdu", "Noto Sans Arabic", serif;
+}
