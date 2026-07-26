@@ -123,3 +123,7 @@ Do not commit `.env.local`. The included file contains only a placeholder and is
 - Consider request logging and abuse monitoring without storing sensitive user input.
 - Browser speech synthesis voice quality depends on the device and installed voices.
 - The requested `@google/generative-ai` SDK is used here. Google also provides the newer `@google/genai` SDK for future migrations.
+
+## 📌 Deployment Link of this Project
+
+https://dicvocab-ai.vercel.app/
